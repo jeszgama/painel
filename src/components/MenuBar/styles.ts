@@ -65,7 +65,7 @@ export const Pessoal = styled.div`
 `;
 
 export const Content = styled.div`
-  margin-left: 15px;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -88,7 +88,9 @@ export const Dashboard = styled.div`
 export const Administrativo = styled.div`
   display: flex;
   flex-direction: column;
-
+  width: 100%;
+  flex-wrap: wrap;
+  padding-right: 15px;
   > span {
     color: var(--letter);
     margin-bottom: 1rem;
@@ -100,7 +102,7 @@ export const MenuButton = styled.button`
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  padding: 8.25px 0;
+  padding: 8px 0;
   outline: 0;
   > span {
     margin-left: 16px;
@@ -114,6 +116,7 @@ export const MenuButton = styled.button`
 
   &:hover{
     background-color: var(--menu-bar-hover);
+    transition: 0.5s;
   }
 `;
 
