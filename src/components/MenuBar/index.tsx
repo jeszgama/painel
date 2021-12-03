@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Twitter from '../../assets/twitter.svg';
+import Twitter from '../../assets/angel.svg';
+import Profile from '../../assets/profile.jpeg';
 
 import {
   Container,
@@ -25,7 +26,9 @@ const MenuBar: React.FC = () => {
   return (
     <Container>
       <Perfil>
-        <Avatar />
+        <Avatar>
+          <img src={Profile} alt="" />
+        </Avatar>
         <Pessoal>
           <span>Ir. Samuel Alvares</span>
           <span>ir.samuel@gmail.com</span>
