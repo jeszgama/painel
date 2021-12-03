@@ -6,7 +6,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 
-    color: #fff;
+    color: var(--white);
   }
 
   html, border-style, #root {
@@ -23,9 +23,13 @@ export default createGlobalStyle`
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
   }
   html {
-    background: #000 ;
+    background: var(--white);
   }
   :root {
-    
+    --white: #FFFFFF;
+    --menu-bar: #0F172A;
+    --menu-bar-hover: #707070;
+    --letter: #FFC37A;
+    --visao-geral: #1E293B;
   }
 `;
