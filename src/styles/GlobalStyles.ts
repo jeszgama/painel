@@ -9,7 +9,7 @@ export default createGlobalStyle`
     color: var(--white);
   }
 
-  html, border-style, #root {
+  html, body, #root {
     max-height: 100vh;
     max-width: 100vw;
 
@@ -26,10 +26,13 @@ export default createGlobalStyle`
     background: var(--white);
   }
   :root {
+    --black: #0A0A0A;
     --white: #FFFFFF;
     --menu-bar: #0F172A;
     --menu-bar-hover: #707070;
     --letter: #FFC37A;
+    --letter-menu: #CA8B3D;
     --visao-geral: #1E293B;
+    --highlight: #B53A3A;
   }
 `;

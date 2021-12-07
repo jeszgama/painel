@@ -9,5 +9,6 @@ export const Wrapper = styled.div`
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+/* justify-content: center; */
 `;
