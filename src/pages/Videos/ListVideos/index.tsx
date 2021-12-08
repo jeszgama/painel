@@ -1,5 +1,9 @@
 import React from 'react';
 
+import Picture1 from '../../../assets/picture.png';
+import Picture2 from '../../../assets/picture2.png';
+import Picture3 from '../../../assets/picture3.png';
+
 import {
   Container,
   Painel,
@@ -14,7 +18,6 @@ import {
   Button2,
   WrapperVideos,
   Preview,
-  Picture,
 } from './styles';
 
 const ListVideos: React.FC = () => {
@@ -46,16 +49,42 @@ const ListVideos: React.FC = () => {
 
       <WrapperVideos>
         <Preview>
-          <Picture />
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloribus eum sapiente temporibus labore eos porro deserunt maxime impedit unde!</span>
+          <img src={Picture2} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
         </Preview>
         <Preview>
-          <Picture />
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloribus eum sapiente temporibus labore eos porro deserunt maxime impedit unde!</span>
+          <img src={Picture1} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
         </Preview>
         <Preview>
-          <Picture />
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloribus eum sapiente temporibus labore eos porro deserunt maxime impedit unde!</span>
+          <img src={Picture3} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
+        </Preview>
+
+        <Preview>
+          <img src={Picture2} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
+        </Preview>
+        <Preview>
+          <img src={Picture1} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
+        </Preview>
+        <Preview>
+          <img src={Picture3} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
+        </Preview>
+
+        <Preview>
+          <img src={Picture2} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
+        </Preview>
+        <Preview>
+          <img src={Picture1} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
+        </Preview>
+        <Preview>
+          <img src={Picture3} alt="" />
+          <span>A Obra dos Santos Anjos, assim como se apresenta hoje, é «uma associação pública da Igreja em conformidade com a doutrina tradicional e as diretrizes da</span>
         </Preview>
       </WrapperVideos>
     </Container>

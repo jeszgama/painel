@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const MenuTop = styled.div`
-  height: 50px;
+  height: 80px;
   width: 100%;
   display: flex;
   padding: 0px 3rem 0px 3rem;
@@ -52,7 +52,7 @@ export const LogOutIcon = styled(LogOut)`
   flex-shrink: 0;
   width: 30px;
   height: 30px;
-  color: var(--black);
+  background-color: red;
 `;
 
 export const Painel = styled.div`
@@ -110,17 +110,32 @@ export const Button2 = styled.div`
 `;
 
 export const WrapperVideos = styled.div`
-  background-color: red;
   width: 100%;
   height: 100%;
   padding: 3rem 5rem 3rem 5rem;
   display: flex;
   flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 `;
 
 export const Preview = styled.div`
-  background-color: pink;
+  box-sizing: border-box;
   display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 250px;
+  gap: 0.5rem;
+  
+  > span {
+    color: var(--black);
+    /* text-align: justify; */
+  }
+
+  > img{
+    height: 150px;
+    width: 250px;
+  }
 `;
 
 export const Picture = styled.div`
