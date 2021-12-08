@@ -14,26 +14,24 @@ const iconCSS = css`
   flex-shrink: 0;
   width: 25px;
   height: 25px;
-  color: var(--white);
+  /* color: var(--white); */
 `;
 
 export const Container = styled.div`
-  /* width: 100vw; */
-  /* flex-shrink: 2; */
   width: 300px;
   background: var(--menu-bar);
   position: sticky;
-  /* display: grid; */
   max-height: 100vh;
   height: 100vh;
 
-  /* grid-template-rows: 1fr 3fr 1fr; */
   top: 0;
   left: 0;
   overflow-y: auto;
   
   display:flex;
   flex-direction: column;
+
+  border-right: 12px solid var(--menu-bar-border);
 `;
 
 export const Perfil = styled.div`
@@ -48,7 +46,7 @@ export const Avatar = styled.div`
     border-radius: 50%;
     height: 118px;
     width: 118px;
-    border: 2px solid var(--menu-bar-hover);
+    border: 3px solid var(--menu-bar-border);
   }
 `;
 
@@ -59,6 +57,7 @@ export const Pessoal = styled.div`
   margin-top: 10px;
 
   > span {
+    color: var(--white);
     &:first-child {
       font-weight: bold;
       font-size: 18px;
@@ -110,6 +109,8 @@ export const MenuButton = styled.button`
   flex-shrink: 0;
   padding: 8px 0;
   outline: 0;
+  color: var(--white);
+
   > span {
     margin-left: 16px;
     font-size: 17px;

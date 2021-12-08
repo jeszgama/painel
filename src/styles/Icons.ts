@@ -9,3 +9,5 @@ export { HiOutlineNewspaper } from 'react-icons/hi';
 export { Printer } from 'styled-icons/heroicons-outline';
 
 export { LogOut } from 'styled-icons/ionicons-outline';
+
+export { Verified } from 'styled-icons/material-rounded';

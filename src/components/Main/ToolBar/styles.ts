@@ -4,10 +4,15 @@ import { LogOut } from './../../../styles/Icons';
 
 
 export const Container = styled.div`
-  height: 80px;
+  /* height: 60px; */
   width: 100%;
   display: flex;
-  padding: 0px 3rem 0px 3rem;
+  padding: 1rem 3rem 1rem 3rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: var(--white);
 `;
 
 export const InformationOfTheDay = styled.div`
@@ -41,11 +46,8 @@ export const LogOutPainel = styled.div`
 `;
 
 export const LogOutIcon = styled(LogOut)`
-  /* flex-shrink: 0;
-  width: 30px;
-  height: 30px; */
+  flex-shrink: 0;
   width: 24px;
   height: 24px;
-  fill: var(--black);
-
+  color: var(--highlight);
 `;

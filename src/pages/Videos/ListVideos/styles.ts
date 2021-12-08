@@ -1,24 +1,21 @@
 import styled from "styled-components";
 
-import { BellFill } from './../../../styles/Icons';
+import { BellFill, Verified } from './../../../styles/Icons';
 
 export const Container = styled.div`
-  /* height: 100%; */
-  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   background: var(--white) ;
 `;
 
 export const Painel = styled.div`
-  /* height: 220px; */
-  /* width: 100%; */
   display: flex;
   flex-direction: row;
   background: var(--visao-geral);
   padding: 2rem 4rem;
   justify-content: space-between;
   align-items: center;
+  color: var(--white);
 `;
 
 export const Information = styled.div`
@@ -67,35 +64,59 @@ export const Button2 = styled.div`
 `;
 
 export const WrapperVideos = styled.div`
-  /* width: 100%; */
-  /* height: 100%; */
-  /* padding: 2rem 4rem; */
   margin: 2rem auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem 1rem;
   flex-wrap: wrap;
 `;
 
 export const Preview = styled.div`
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 280px;
   width: 273.33px;
   gap: 0.5rem;
   
+  /* box-shadow: 0px 3px 6px #00000029; */
+
+  box-shadow: 0px 3px 6px #00000029;
+
+  border-radius: 11px;
+
   > span {
     color: var(--black);
-    /* text-align: justify; */
   }
 
   > img{
     height: 150px;
     width: 100%;
+    border-radius: 11px 11px 0px 0px;
   }
+`;
+
+export const Buttons = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 0rem;
+  gap: 1rem;
+
+  > button {
+    border: 1px solid #000;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+`;
+
+export const Verificated = styled(Verified)`
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  color: var(--verificated);
 `;
 
 export const Picture = styled.div`
@@ -108,5 +129,4 @@ export const Bell = styled(BellFill)`
   flex-shrink: 0;
   width: 30px;
   height: 30px;
-  color: var(--black);
 `;
