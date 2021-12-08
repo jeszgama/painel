@@ -1,71 +1,28 @@
 import styled from "styled-components";
 
-import { BellFill, LogOut } from './../../../styles/Icons';
+import { BellFill } from './../../../styles/Icons';
 
 export const Container = styled.div`
-  height: 100%;
-  margin: 0 auto;
+  /* height: 100%; */
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
-  position: sticky;
   background: var(--white) ;
 `;
 
-export const MenuTop = styled.div`
-  height: 80px;
-  width: 100%;
-  display: flex;
-  padding: 0px 3rem 0px 3rem;
-`;
-
-export const InformationOfTheDay = styled.div`
-  >span{
-    font-size: 16px;
-    font-weight: 550;
-    color: var(--black);
-  }
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-`;
-
-export const LogOutPainel = styled.div`
-  >span{
-    font-size: 16px;
-    font-weight: 550;
-    color: var(--highlight);
-  }
-
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 1rem;
-
-  &:hover{
-    cursor: pointer;
-  }
-`;
-
-export const LogOutIcon = styled(LogOut)`
-  flex-shrink: 0;
-  width: 30px;
-  height: 30px;
-  background-color: red;
-`;
-
 export const Painel = styled.div`
-  height: 180px;
-  width: 100%;
+  /* height: 220px; */
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
   background: var(--visao-geral);
-  padding: 0px 4rem 0px 4rem;
+  padding: 2rem 4rem;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const Information = styled.div`
-  width: 100%;
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,7 +40,7 @@ export const Title = styled.div`
 `;
 
 export const Button = styled.div`
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -110,12 +67,15 @@ export const Button2 = styled.div`
 `;
 
 export const WrapperVideos = styled.div`
-  width: 100%;
-  height: 100%;
-  padding: 3rem 5rem 3rem 5rem;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* padding: 2rem 4rem; */
+  margin: 2rem auto;
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   flex-wrap: wrap;
 `;
 
@@ -124,7 +84,7 @@ export const Preview = styled.div`
   display: flex;
   flex-direction: column;
   height: 280px;
-  width: 250px;
+  width: 273.33px;
   gap: 0.5rem;
   
   > span {
@@ -134,7 +94,7 @@ export const Preview = styled.div`
 
   > img{
     height: 150px;
-    width: 250px;
+    width: 100%;
   }
 `;
 

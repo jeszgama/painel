@@ -7,10 +7,6 @@ import Picture3 from '../../../assets/picture3.png';
 import {
   Container,
   Painel,
-  MenuTop,
-  InformationOfTheDay,
-  LogOutPainel,
-  LogOutIcon,
   Information,
   Title,
   Bell,
@@ -23,15 +19,6 @@ import {
 const ListVideos: React.FC = () => {
   return (
     <Container>
-      <MenuTop>
-        <InformationOfTheDay>
-          <span>24 de novembro de 2021 | Cuiabá - MT</span>
-        </InformationOfTheDay>
-        <LogOutPainel>
-          <span>Sair do Perfil</span>
-          <LogOutIcon />
-        </LogOutPainel>
-      </MenuTop>
       <Painel>
         <Information>
           <Title>
