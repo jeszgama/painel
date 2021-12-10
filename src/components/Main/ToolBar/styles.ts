@@ -4,7 +4,6 @@ import { LogOut } from './../../../styles/Icons';
 
 
 export const Container = styled.div`
-  /* height: 60px; */
   width: 100%;
   display: flex;
   padding: 1rem 3rem 1rem 3rem;
@@ -18,8 +17,8 @@ export const Container = styled.div`
 export const InformationOfTheDay = styled.div`
   >span{
     font-size: 16px;
-    font-weight: 550;
-    color: var(--black);
+    font-weight: 600;
+    color: #5B5B5B;
   }
   width: 100%;
   display: flex;
