@@ -87,6 +87,17 @@ export const Preview = styled.div`
 
   > span {
     color: var(--black);
+    position: relative;
+
+      &::before{
+        content: "";
+        position: absolute;
+        border-bottom: 3px solid #16A34A;
+        width: 50%;
+        left:0;
+        opacity: 1;
+        bottom:-15px;
+      }
   }
 
   > img{
@@ -117,6 +128,7 @@ export const Verificated = styled(Verified)`
   width: 30px;
   height: 30px;
   color: var(--verificated);
+  cursor: pointer;
 `;
 
 export const Picture = styled.div`

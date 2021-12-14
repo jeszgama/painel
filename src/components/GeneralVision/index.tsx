@@ -71,7 +71,7 @@ const GeneralVision: React.FC = () => {
             </TableHead>
             <TableBody>
               {
-                [1, 2, 3, 4, 5, 6, 7, 8, 9].map(item => (
+                [1, 2, 3, 4, 5, 6, 7, 8].map(item => (
                   <tr>
                     <td><span>Retiro de Carnaval</span></td>
                     <td><span>Cuiabá-MT</span></td>
